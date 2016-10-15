@@ -1,0 +1,59 @@
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+\usepackage{multibib}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\newcites{book,misc}{{Books},{Others}}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+
+\firstname{Guillaume\\}
+\familyname{Gremillet}
+\title{Curriculum vitae}               
+\address{19, Rue du Tour de l'Eau}{38400 Saint-Martin-d'Hères}
+\mobile{0671098148}     
+\phone{0145269444}                     
+\email{gui.gremi@gmail.com}
+\extrainfo{N\'{e} le 30 Juin 1995}
+\photo[64pt]{../photo.jpg} 
+
+\begin{document}
+
+\maketitle
+
+\section{Formation}
+\subsection{Scolaire}
+\cventry{2015-2016}{Première année}{\'Ecole Nationale Supérieure d'Informatique et de Mathématiques Appliqués de Grenoble}{Grenoble}{\'Ecole d'ingénieur}{}
+\cventry{2013-2015}{Classes préparatoires}{Lycée Chaptal}{Paris}{Classe étoilée}{Section Physique, Technologie (PT*)}
+\cventry{2010-2013}{Terminale}{Lycée Chaptal}{Paris}{\textit{Baccalauréat scientifique (Mention très bien)}}{Série scientifique section Sciences de l'ingénieur, options Latin et Histoire-Géographie}{}
+\subsection{Autres}
+\cventry{Été 2015}{BAFA}{Stage pratique}{Centre de loisirs Chabrol}{Ville de Paris}{}{}
+\cventry{Été 2014}{BAFA}{Formation générale}{CPCV}{Saint Prix}{}
+\cventry{Juillet 2010}{PSC1}{Formation de prévention et secours civiques}{Niveau 1}{Paris}{}
+\section{Experiences}
+%\subsection{Professionnelle}
+\cventry{2016-2017}{Responsable du pôle foyer de l'Ensimag}{logistique et restauration}{}{}{}
+\cventry{Juillet 2016}{Projet : Réalisation d'un site internet}{Nsigma Junion Entreprise}{Grenoble}{}{Conception d'un intranet scolaire pour une classe d'élèves en difficulté scolaire}
+\cventry{Avril 2014}{Organisateur d'un séjour}{Voyage scolaire}{Berlin (Allemagne)}{}
+{Montage du séjour en tant que délégué (Préparation et conception du voyage, organisation/gestion du budget et coordination sur place)}
+\cventry{Juillet 2013}{Assistant/accompagnateur de séjour}{Association MO.O.V.E. (MObilité et Orientation vers l'Emploi)}{Galway (Irlande)}{}{Accompagnement d'un groupe de jeunes en recherche d'emploi pour un séjour linguistique.\\Mission: Traduction et participation aux activités circassiennes quotidiennes en anglais}
+\section{Compétences informatiques}
+\cvcomputer{Bureautique}{Microsoft Office}{Devlpt. Web}{MySQL}
+\cvcomputer{Langages impératifs}{PHP, Python, C, Ada}{Langages descriptifs}{LaTex, HTML/CSS}
+
+\section{Langues}
+\cvlanguage{Anglais}{Courant}{Niveau B2/C1}
+\cvlanguage{Espagnol}{Lu, écrit, parlé}{Niveau A2/B1}
+
+\section{Intérêts}
+\cvline{Musique}{\small Luth, répertoire baroque, Conservatoire CMA9 (2004-2012)}
+\cvline{Sports}{\small Aïkido, escrime, tir à l'arc, karaté}
+\cvline{Activités\\vidéoludiques}{\small Diverses}
+\cvline{Associatifs}{\small Appartenance à la liste BDE Ensimag 2015-2016 ''Netflist \& Chill''}
+\cvline{Associatifs}{\small Appartenance au BDE (Bureau Des Élèves) Ensimag 2016-2017}
+\end{document}
